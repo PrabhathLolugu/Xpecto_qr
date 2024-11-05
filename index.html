@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xpecto'25 Vendor Payment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Xpecto'25 <br>Vendor Payment Portal</h1>
+        <form id="paymentForm">
+            <label for="registrationNumber">Registration Number:</label>
+            <input type="text" id="registrationNumber" name="registrationNumber" required>
+
+            <label for="stallNumber">Select Stall Number:</label>
+            <select id="stallNumber" name="stallNumber" required>
+                <option value="">--Select Stall--</option>
+                <option value="stall1">Stall 1: Bakery</option>
+                <option value="stall2">Stall 2: Fast Food</option>
+                <option value="stall3">Stall 3: Beverages</option>
+                <option value="stall4">Stall 4: Indian Street Food</option>
+                <option value="stall5">Stall 5: Desserts</option>
+                <option value="stall6">Stall 6: Merchandise</option>
+                <option value="stall7">Stall 7: Indian Cuisine</option>
+                <option value="stall8">Stall 8: Chinese Cuisine</option>
+            </select>
+            
+            <label for="items">Select Items:</label>
+            <select id="items" name="items" multiple size="6">
+                <option value="no-items">Select a stall first</option>
+            </select>
+
+            <div id="totalAmount">
+                Total Amount: ₹<span id="amount">0</span>
+            </div>
+            
+            <button type="button" id="payButton">Proceed to Pay</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

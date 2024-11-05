@@ -1,0 +1,83 @@
+body {
+    background: linear-gradient(to right, #f1f8ff, #0f6fee);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    background: linear-gradient(to right, #53c3e2, #023b4e); /* Blue gradient */
+    background-clip: text; /* Ensures gradient is clipped to the text */
+    -webkit-text-fill-color: transparent; /* Makes the text color transparent */
+    margin-bottom: 20px;
+}
+
+
+label {
+    display: inline-block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input, select, button {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: border-color 0.5s;
+}
+
+input:focus, select:focus, button:hover {
+    border-color: #1e88e5;
+}
+
+select[multiple] {
+    height: auto;
+    padding: 8px;
+}
+
+#totalAmount {
+    font-weight: bold;
+    font-size: 1.4em;
+    color: #d32f2f; /* Change to a different color for emphasis */
+    margin: 10px 0;
+}
+
+button {
+    background-color: #1e88e5;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1565c0;
+}
+
+/* New styles for select box states */
+.red-select {
+    border: 2px solid red;
+    background-color: #ffe6e6; /* Light red background */
+}
+
+.green-select {
+    border: 2px solid green;
+    background-color: #e6ffe6; /* Light green background */
+}
