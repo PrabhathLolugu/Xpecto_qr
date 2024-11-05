@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const stalls = {
-        stall1: { name: "Bakery", upi: "bakery@upi", items: [{ name: "Noodles", price: 50 }, { name: "Puff", price: 30 }, { name: "Cake Slice", price: 40 }, { name: "Bread", price: 20 }, { name: "Cookies", price: 35 }] },
+        stall1: { name: "Bakery", upi: "7382079145@axl", items: [{ name: "Noodles", price: 50 }, { name: "Puff", price: 30 }, { name: "Cake Slice", price: 40 }, { name: "Bread", price: 20 }, { name: "Cookies", price: 35 }] },
         stall2: { name: "Fast Food", upi: "fastfood@upi", items: [{ name: "Burger", price: 60 }, { name: "Pizza", price: 80 }, { name: "Fries", price: 40 }, { name: "Hot Dog", price: 50 }, { name: "Taco", price: 70 }] },
         stall3: { name: "Beverages", upi: "beverages@upi", items: [{ name: "Lemonade", price: 20 }, { name: "Cold Drink", price: 25 }, { name: "Milkshake", price: 50 }, { name: "Coffee", price: 30 }, { name: "Smoothie", price: 60 }] },
         stall4: { name: "Indian Street Food", upi: "indianstreetfood@upi", items: [{ name: "Samosa", price: 10 }, { name: "Kachori", price: 15 }, { name: "Pav Bhaji", price: 50 }, { name: "Bhel Puri", price: 30 }, { name: "Chole Bhature", price: 70 }] },
